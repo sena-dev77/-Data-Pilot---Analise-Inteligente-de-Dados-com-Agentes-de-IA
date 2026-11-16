@@ -1,0 +1,18 @@
+[project]
+name = "datapilot"
+version = "0.1.0"
+description = "Painel de vendas com chat de IA sobre os dados"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openrouter>=1.0.3",
+    "pandas>=3.0.3",
+    "plotly>=6.9.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.59.2",
+]
+
+[dependency-groups]
+dev = [
+    "pandas-stubs>=3.0.3.260530",
+]
